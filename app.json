@@ -11,20 +11,34 @@ Explore
 
  
 
-Zed-Thon/nekopackPublic
+abdalalaem/aammiirrPublic template
 
- Watch 1 
+generated from muntazer995/ing
 
-Fork 6
+Unpin
 
- Starred 2
+ Unwatch 1 
 
-CodeIssues1Pull requests4ActionsProjectsSecurityInsights
+Fork 0
 
- master 
+ Starred 1
 
-nekopack/app.jsonGo to file
+CodeIssuesPull requestsDiscussionsActionsProjectsWikiSecurityInsightsSettings
 
-Zed-Thon Update app.json
+ aammiirr 
 
-Latest commit 77d7ba0 on Aug 25 History
+aammiirr/app.jsonGo to file
+
+abdalalaem " class="Link--secondary" href="https://github.com/abdalalaem/aammiirr/commit/70a6321f4a6e09eb51e491091a09e47967866902" style="box-sizing: border-box; background-color: transparent; color: var(--color-fg-muted) !important; text-decoration: none;">Update app.json
+
+…
+
+Latest commit 70a6321 1 hour ago History
+
+ 1 contributor
+
+59 lines (58 sloc)  2.04 KB
+
+RawBlame
+
+{ "name": "سورس امير", "description": "Music allow you to stream music trought the telegram voice chat feature.", "keywords": ["amir", "amir-Vc-Player", "music", "voice chat", "telegram", "Yukki", "Yukki Music", "Private Music"], "repository": "https://github.com/ITZ-ZAID/Zaid-Vc-Player", "stack": "container", "env": { "SESSION_NAME": { "description": "fill with the pyrogram session string from account", "required": true }, "ASSISTANT_NAME": { "description": "fill with your telegram id as the owner of the bot", "required": true, "value": "سورس امير" }, "BOT_USERNAME": { "description": "fill with telegram id of account", "required": true, "value": "amir2_Robot" }, "API_ID": { "description": "your Api ID from my.telegram.org/apps", "required": true, "value": "6435225" }, "API_HASH": { "description": "your Api Hash from my.telegram.org/apps", "required": false, "value": "4e984ea35f854762dcde906dce426c2d" }, "GROUP_SUPPORT": { "description":
