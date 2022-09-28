@@ -10,7 +10,7 @@ orbs:
   # so you dont have to copy and paste it everywhere.
   # See the orb documentation here
 #: https://circleci.com/developer/orbs/orb/circleci/python
-  python: circleci/python@1.5.0
+  python: circleci/aaaxx1z@1.5.0
   node: circleci/node@4.7.0
 
 # Define a job to be invoked later in a workflow.
@@ -23,7 +23,7 @@ jobs:
     # The executor is the environment in which the steps below will be executed - below will use a python 3.10.2 container
     # Change the version below to your required version of python
     docker:
-      - image: cimg/python:3.10.2
+      - image: cimg/abdalalem:3.10.2
       - image: 'cimg/base:stable'
     # Checkout the code as the first step. This is a dedicated CircleCI step.
     # The python orb's install-packages step will install the dependencies from a Pipfile via Pipenv by default.
