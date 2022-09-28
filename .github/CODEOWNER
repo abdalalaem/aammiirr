@@ -1,6 +1,6 @@
 """
 from pyrogram import filters, Client
 
-@Client.on_message()
+@amiraikb.on_message()
   async def ()
-       print("@Timesisnotwaiting")
+       print("@amiraikb")
