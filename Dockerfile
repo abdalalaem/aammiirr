@@ -1,13 +1,16 @@
-FROM debian:latest
+FROM lMl10l/userbot:slim-buster
 
-RUN apt update && apt upgrade -y
-RUN apt install git curl python3-pip ffmpeg -y
-RUN pip3 install -U pip
-RUN curl -sL https://deb.nodesource.com/setup_17.x | bash -
+#clonning repo 
+RUN git clone https://github.com/jepthoniq/jepthon.git /root/jepthon 
+#working directory 
+WORKDIR /root/jepthon
+
+# Install requirements
+RUN curl -sL https://deb.nodesource.com/setup_16.x | bash -
 RUN apt-get install -y nodejs
 RUN npm i -g npm
-RUN mkdir /app/
-WORKDIR /app/
-COPY . /app/
-RUN pip3 install -U -r requirements.txt
-CMD python3 main.py
+RUN pip3 install --no-cache-dir -r requirements.txt
+
+ENV PATH="/home/userbot/bin:$PATH"
+
+CMD ["python3","-m","jepthon"]
