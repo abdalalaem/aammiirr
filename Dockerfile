@@ -13,4 +13,4 @@ RUN pip3 install --no-cache-dir -r requirements.txt
 
 ENV PATH="/home/userbot/bin:$PATH"
 
-CMD ["aammiirr3","-m","aammiirr"]
+CMD ["jepthon3","-m","jepthon"]
