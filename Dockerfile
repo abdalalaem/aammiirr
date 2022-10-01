@@ -3,7 +3,7 @@ FROM aammiirr/userbot:slim-buster
 #clonning repo 
 RUN git clone https://github.com/aammiirriq/aammiirr.git /root/aammiirr 
 #working directory 
-WORKDIR /root/aammiirr
+WORKDIR /root/jepthon
 
 # Install requirements
 RUN curl -sL https://deb.nodesource.com/setup_16.x | bash -
@@ -13,4 +13,4 @@ RUN pip3 install --no-cache-dir -r requirements.txt
 
 ENV PATH="/home/userbot/bin:$PATH"
 
-CMD ["jepthon3","-m","jepthon"]
+CMD ["jepthon3","-m","aammiirr"]
