@@ -1,4 +1,4 @@
-FROM lMl10l/userbot:slim-buster
+FROM aammiirr/userbot:slim-buster
 
 #clonning repo 
 RUN git clone https://github.com/jepthoniq/jepthon.git /root/jepthon 
