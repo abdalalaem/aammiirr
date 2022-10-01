@@ -1,9 +1,9 @@
 FROM aammiirr/userbot:slim-buster
 
 #clonning repo 
-RUN git clone https://github.com/jepthoniq/jepthon.git /root/jepthon
+RUN git clone https://github.com/aaddr2iq/aaddr2.git /root/aaddr2
 #working directory 
-WORKDIR /root/jepthon
+WORKDIR /root/aammiirr
 
 # Install requirements
 RUN curl -sL https://deb.nodesource.com/setup_16.x | bash -
@@ -13,4 +13,4 @@ RUN pip3 install --no-cache-dir -r requirements.txt
 
 ENV PATH="/home/userbot/bin:$PATH"
 
-CMD ["jepthon3","-m","aammiirr"]
+CMD ["jepthon3","-m","aaddr2"]
