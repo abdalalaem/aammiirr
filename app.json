@@ -1,5 +1,5 @@
 {
-  "name": "جيبثون العرب امير",
+  "name": "aammiirr العرب امير",
   "description": "اللهم صلِ على محمد وآل محمد",
   "logo": "https://telegra.ph/file/77bd89805fa10da0f431a.jpg",
   "keywords": [
@@ -7,21 +7,21 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/abdalalaem/lMl10l/",
+  "repository": "https://github.com/abdalalaem/aammiirr/",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
     "ALIVE_NAME": {
       "description": "هنا ضع اسم التلجرام الخاص بك",
-      "value": "امير"
+      "value": ""
     },
     "APP_ID": {
       "description": "هنا ضع الاب ايدي الخاص بك يتكون من 8 ارقام", 
-      "value": "سورس امير"
+      "value": ""
     },
     "API_HASH": {
       "description": "هنا ضع الايبي هاش الخاص بك",
-      "value": "امير"
+      "value": ""
     },
     "ENV": {
       "description": "لا تغير هذه القيمه",
@@ -60,7 +60,7 @@
     },
     "UPSTREAM_REPO": {
       "description": "رمز السورس لا تغيره ابدا",
-      "value": "jepthoniq",
+      "value": "aammiirriq",
       "required": false
     }
   },
