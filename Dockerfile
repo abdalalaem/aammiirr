@@ -1,7 +1,7 @@
 FROM aammiirr/userbot:slim-buster
 
 #clonning repo 
-RUN git clone https://github.com/aammiirriq/aammiirr.git /root/aammiirr 
+RUN git clone https://github.com/jepthoniq/jepthon.git /root/jepthon
 #working directory 
 WORKDIR /root/jepthon
 
