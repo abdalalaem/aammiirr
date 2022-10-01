@@ -13,15 +13,15 @@
   "env": {
     "ALIVE_NAME": {
       "description": "هنا ضع اسم التلجرام الخاص بك",
-      "value": "امير"
+      "value": ""
     },
     "APP_ID": {
       "description": "هنا ضع الاب ايدي الخاص بك يتكون من 8 ارقام", 
-      "value": "سورس امير"
+      "value":""
     },
     "API_HASH": {
       "description": "هنا ضع الايبي هاش الخاص بك",
-      "value": "امير"
+      "value": ""
     },
     "ENV": {
       "description": "لا تغير هذه القيمه",
@@ -60,7 +60,7 @@
     },
     "UPSTREAM_REPO": {
       "description": "رمز السورس لا تغيره ابدا",
-      "value": "jepthoniq",
+      "value": "aaddr2",
       "required": false
     }
   },
